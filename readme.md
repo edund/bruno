@@ -7,7 +7,7 @@ Projeto precisa do gerenciador de dependência do PHP [Composer](https://getcomp
 ```sh
 $ git clone https://github.com/edund/bruno.git bruno
 $ cd bruno
-$ composer insthttp://localhost:8000/getShoppingall
+$ composer install 
 $ php artisan serve
 ```
 
