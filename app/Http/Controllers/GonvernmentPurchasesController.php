@@ -11,9 +11,9 @@ class GonvernmentPurchasesController extends Controller
 {
     public function download()
     {
-
+        echo '<pre>';
         print_r('Iniciando o processo de download.<br />');
-        print_r('criado o diretório.<br />');
+        print_r('Criado o diretório.<br />');
         $directory = Storage::makeDirectory('public/201801');
         $directory = Storage::directories('');
 
@@ -33,5 +33,6 @@ class GonvernmentPurchasesController extends Controller
 
 
         print_r('Processo finalizado.<br />');
+        echo '</pre>';
     }
 }
